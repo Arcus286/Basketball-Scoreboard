@@ -1,8 +1,32 @@
+@font-face {
+    font-family: Timer;
+    src: url("./CursedTimerUlil-Aznm.ttf");
+}
+
 body {
-    margin: 0;
+    margin: 10px auto;
+    text-align: center;
+    width: 575px;
+    height: 385px;
+    border: 2px solid black;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.score{
+    height: 120px;
+    width: 155px;
+    background-color: black;
+    font-size: 70px;
+    color: white;
+    font-family: Timer,Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }

@@ -4,18 +4,22 @@
 }
 
 body {
-    margin: 10px auto;
-    text-align: center;
-    width: 575px;
-    height: 385px;
-    border: 2px solid black;
+    margin: 0px auto;
     padding: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
+
 
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    color: white;
+    margin: 0 auto;
 }
 
 .score{
@@ -23,10 +27,22 @@ body {
     width: 155px;
     background-color: black;
     font-size: 70px;
-    color: white;
+    color: #F94F6D;
     font-family: Timer,Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+}
+
+button{
+    margin-top: 20px;
+    height: 45px;
+    width: 45px;
+    font-family: Timer, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
 }

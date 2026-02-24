@@ -27,3 +27,8 @@ function guest_add3(){
     document.getElementById("guest_score").textContent++;
     document.getElementById("guest_score").textContent++;
 }
+
+function reset(){
+    document.getElementById("guest_score").textContent = 0;
+    document.getElementById("home_score").textContent = 0;
+}

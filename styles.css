@@ -34,7 +34,7 @@ body {
     border-radius: 5px;
 }
 
-button{
+.container button{
     margin-top: 20px;
     height: 45px;
     width: 45px;
@@ -42,6 +42,17 @@ button{
     background-color: transparent;
     color: white;
     border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body button{
+    border: 1px solid black;
+    color: black;
+    margin-top: 20px;
+    padding: 6px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
 }

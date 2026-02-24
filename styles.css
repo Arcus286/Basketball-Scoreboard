@@ -5,11 +5,10 @@
 
 body {
     margin: 0px auto;
-    padding: 30px;
+    padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-
 
 .container {
     display: flex;
